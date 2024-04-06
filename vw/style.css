@@ -1,0 +1,40 @@
+img {
+    width: 100%;
+}
+
+
+.logo-img {
+    width: 80px;
+}
+.nav-link{
+    color: navy;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+h1{
+text-align: center;
+padding: 40px 0;
+}
+h2{
+    padding: 30px 0;
+}
+.footer{
+    background-color: #02031a;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+i{
+    font-size: 2rem;
+    color: aliceblue;
+    margin: 20px;
+}
+.zoom:hover{
+    transform: scale(2);
+}
+.zoom{
+    transition: 0.5s;
+}
+.col-md-7, .container-fluid{
+    overflow: hidden;
+}
