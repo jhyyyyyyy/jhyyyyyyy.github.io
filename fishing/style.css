@@ -1,0 +1,54 @@
+img {
+    width: 100%;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.row-top {
+    background-image: url(top-photo.jpg);
+    background-position: 50% 50%;
+}
+
+.col-sm-6.col-md-4.col-lg-3 {
+    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.os-img{
+    width: 200px;
+}
+body{
+    background-image: url(e0a2cc973d0796c1d29079ab663e9c9a.jpg);
+}
+.ffon{
+    background-color: #d5d5d5c1;
+    padding: 15px;
+}
+footer{
+ background-color: rgb(4, 4, 97);  
+ padding-top: 20px;
+ padding-bottom: 20px; 
+}
+.socio{
+    font-size: 2em;
+}
+.podval{
+    color: white;
+    width: 100px;
+    align-items: center;
+}
