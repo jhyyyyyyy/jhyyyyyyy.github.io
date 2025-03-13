@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <select class="sel-1">
+        <option value="1">Ніч</option>
+        <option value="2">Ранок</option>
+        <option value="3">День</option>
+        <option value="4">Вечір</option>
+    </select>
+    <p class="p-2"> номер вашої картки</p>
+    <input class="inp-1" type="number">
+    <p class="p-1"></p>
+    <button class="btn-1">Оплатити</button>
+    <button class="btn-2">Очистити</button>
+    <a class="a-1" href="main.html">Повернутись</a>
+
+    <script>
+        let inp1 = document.querySelector('.inp-1')
+        let btn1 = document.querySelector('.btn-1')
+        let p1 = document.querySelector('.p-1')
+        let btn2 = document.querySelector('.btn-2')
+
+        btn1.onclick = function () {
+            p1.innerHTML = "Дякуємо! Оплата пройшла успішно!"
+        }
+        btn2.onclick = function () {
+
+            p1.innerHTML = ""
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
